@@ -17,7 +17,7 @@ int main()
 	cout<< "I have corrected all errors for this program. " << endl;
 
 	// Wait For Output Screen
-	std::cout << "\nPress Enter to exit...";
+	cout << "\nPress Enter to exit...";
 	
 	// clear any previous newline from input buffer
     cin.ignore();
