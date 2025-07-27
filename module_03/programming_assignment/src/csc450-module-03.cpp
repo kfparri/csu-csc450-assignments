@@ -1,5 +1,13 @@
+/*
+* Program Name: csc450-module-03
+* Author: 		Kyle Parrish
+* Description:
+* 	This program prompts the user three times for two strings.  These strings
+* 	are then concatenated into a new variable and printed out to the terminal.
+*/
 #include <iostream>
 
+// import the std namespace to make the program a little less wordy (no std:: statements)
 using namespace std;
 
 int main(int argc, char **argv) {
@@ -9,7 +17,7 @@ int main(int argc, char **argv) {
 	{
 		cout << "Please enter an integer value:";
 		cin >> val;
-		
+
 		int* dynamicInt = new int;
 		*dynamicInt = val;
 
