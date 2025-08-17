@@ -1,0 +1,2 @@
+This is a simple string
+this is yet another string that I would like to append
